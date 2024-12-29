@@ -2,7 +2,7 @@
 
 version_settings(constraint='>=0.33.21')
 
-docker_compose('docker-compose.yml')
+docker_compose('./app1/docker-compose.yml')
 
 docker_build(
   'sample/app1',
